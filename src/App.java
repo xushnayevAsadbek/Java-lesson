@@ -1,4 +1,4 @@
-import java.lang.Math;
+//import java.lang.Math;
 public class App {
     public static void main(String[] args) {
         System.out.println("Hello World!");
@@ -8,6 +8,16 @@ public class App {
         int b = 6 ;
         int natija = Math.max(a , b);
         System.out.println(natija);
+         natija = Math.min(a , b);
+        System.out.println(natija);
+        // sqrt sonning ildizini qaytaradi
+        int f= 64 ;
+        double ildiz = Math.sqrt(f);
+        System.out.println("Ildiz: " + ildiz);
+        // random sonlar
+        int randomSon = (int) (Math.random()*101);
+        System.out.println(randomSon);
+
 
     }
 }
