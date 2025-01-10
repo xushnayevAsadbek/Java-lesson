@@ -18,7 +18,6 @@ public class App {
         int randomSon = (int) (Math.random()*101);
         System.out.println(randomSon);
 
-
     }
 }
 
