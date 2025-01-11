@@ -21,6 +21,33 @@ public class Strings {
         }else{
             System.out.println(0);
         }
+        //Tanlash operatorlari
+        int haftakuni =5;
+        switch(haftakuni){
+            case 1:
+                System.out.println("Dushanba");
+                break;
+            case 2:
+                System.out.println("Seshanba");
+                break;
+            case 3:
+                System.out.println("Chorshanba");
+                break;
+            default:
+                System.out.println("Bunday hafta kuni yo'q");
+
+       String word = "apple";
+       switch (word){
+           case "apple":
+               System.out.println("Olma");
+               break;
+               case "orange":
+                   System.out.println("Apelsin");
+                   break;
+           default:
+               System.out.println("Bunday so'z yoq");
+       }
+        }
     }
 
 }
