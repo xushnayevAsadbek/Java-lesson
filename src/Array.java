@@ -10,8 +10,24 @@ public class Array {
 //            System.out.println(cars[i]);
 //        }
         // for each
-        for (String car : cars) {
-            System.out.println(car);
+//        for (String car : cars) {
+//            System.out.println(car);
+//        }
+        // kop olchovli massivlar
+        int [] [] raqamlar = {
+                {1,3,5},
+                {2,4,6}
+        };
+        for (int i = 0; i < raqamlar.length; i++) {
+            for (int j = 0; j < raqamlar[i].length; j++) {
+                System.out.println(raqamlar[i][j]);
+
+            }
+        }
+        for (int[] x: raqamlar) {
+            for(int y: x) {
+                System.out.println(y);
+            }
         }
     }
 }
