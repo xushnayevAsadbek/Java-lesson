@@ -1,3 +1,6 @@
+class Person {
+        String name = "hello";
+}
 public class ClassOOp {
     static String personPlus(String ism) {
         return ism + " uchun!";
@@ -7,6 +10,8 @@ public class ClassOOp {
     String bbb = personPlus("fff");
         System.out.println(add);
         System.out.println(bbb);
+        Person hello = new Person();
+        System.out.println(hello.name);
     }
 
 }
