@@ -1,17 +1,38 @@
 public class Array {
-    static void  metodName(String ism) {
+//    static void  metodName(String ism) {
+//        System.out.println("Hello World " + ism);
+//    }
+//    static  String ism(){
+//        return "Hello";
+//    }
+    static void salom(String ism){
         System.out.println("Hello World " + ism);
     }
-    static  String ism(){
-        return "Hello";
+    static String ism(){
+        return "Aziz";
     }
+    static int size(int x , int y){
+        return  x+y ;
+    }
+    static double size (double x , double y){
+        return x+y ;
+    }
+
     public  static void main(String[] args) {
-//        metodName();
-        String [] ismlar = {"az","boff","fdsg"};
-                for (String ism : ismlar) {
-    metodName(ism);
-                }
-        String[] cars = {"mers" , "bwm" , "volvo", "gm"};
+        int intsize = size(10,20);
+        double doublesize = size(12.6,5.4);
+        System.out.println(intsize);
+        System.out.println(doublesize);
+//        String [] ismlar  = {"dss" , " ghf" , "dfr"};
+//        for(String ism : ismlar){
+//            salom(ism);
+//        }
+
+//        String [] ismlar = {"az","boff","fdsg"};
+//                for (String ism : ismlar) {
+//    metodName(ism);
+//                }
+//        String[] cars = {"mers" , "bwm" , "volvo", "gm"};
 //        System.out.println(cars[2]);
 //        cars[2]="mazda";
 //        System.out.println(cars[2]);
