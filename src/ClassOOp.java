@@ -15,12 +15,12 @@ public class ClassOOp {
 //        return ism + " uchun!";
 //    }
     public static void main(String[] args) {
-//        Person personObj = new Person();
-//        System.out.println(personObj.name);
-//        personObj.age = 25;
-//        personObj.name = "Aziz";
-//      System.out.println(personObj.age);
-//        System.out.println(personObj.name);
+        Person personObj = new Person();
+        System.out.println(personObj.name);
+        personObj.age = 25;
+        personObj.name = "Aziz";
+      System.out.println(personObj.age);
+        System.out.println(personObj.name);
     Dastur word = new Dastur();
     word.kirish();
     word.chiqish();
