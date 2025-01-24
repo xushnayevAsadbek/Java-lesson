@@ -17,6 +17,7 @@ public class ClassOOp {
 //    }
     public static void main(String[] args) {
 //        Person personObj = new Person();
+
 //        System.out.println(personObj.name);
 //        personObj.age = 25;
 //        personObj.name = "Aziz";
@@ -25,6 +26,7 @@ public class ClassOOp {
         Dastur word = new Dastur();
         word.kirish();
         word.chiqish();
+
 //        String add = personPlus("aaa");
 //        String bbb = personPlus("fff");
 //        System.out.println(add);
