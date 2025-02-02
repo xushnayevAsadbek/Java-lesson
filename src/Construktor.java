@@ -21,7 +21,7 @@ public class Construktor {
     public static void main(String[] args) {
         Dastur1 dastur1 = new Dastur1("Telegram");
         dastur1.getDastur();
-        dastur1.setDastur("Word");
+        dastur1.setDastur("Instagram");
         dastur1.getDastur();
     }
 }
