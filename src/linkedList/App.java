@@ -5,6 +5,11 @@ public class App {
        LinkedList <String> cars = new LinkedList<String>() ;
        cars.add("BMW");
        cars.add("Matiz");
-       System.out.println(cars);
+       cars.add("Nexia");
+    //    System.out.println(cars);
+         cars.addFirst("Audi");
+         System.out.println(cars);
+         
+            System.out.println(cars.size());
     }
 }
