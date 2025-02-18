@@ -46,6 +46,76 @@ public class App {
 
         // 6-misol
 
+        // int a= 5 , b=7, c= 10;
+        // if (a>b && a>c) {
+        //     System.out.println("a soni eng katta");
+        // } else if (b>a && b>c) {
+        //     System.out.println("b soni eng katta");
+        // } else if (c>a && c > b) {
+        //     System.out.println("c soni eng katta");      
+        // }
 
+        // 7-misol
+        // int a= 0;
+        // if (a>0) {
+        //     System.out.println("Musbat son");
+        
+        // }else if (a<0){
+        //     System.out.println("Manfiy son");
+        
+        // } else{
+        //     System.out.println("Nolga teng");
+        // }
+
+        // 8-misol
+
+        //  int a=31;
+        //  if (a%5==0) {
+        //     System.out.println("true");
+
+        //  } else{
+        //     System.out.println("false");
+        //  }
+
+        // 9-misol
+        // int a = 24;
+        // if (a%3==0 && a%4==0) {
+        //     System.out.println("true");
+        
+        // }else{
+        //     System.out.println("false");
+        // }
+
+        // 10-misol
+
+        // int year=2000;
+        // if ( year %4==0 && year %100!=0 || year %400==0) {
+        //     System.out.println("true");
+        //         } else{
+        //             System.out.println("false");
+        //         }
+
+
+        // 11-misol
+
+        // int c = '5';
+        // if (c>='0' && c<='9') {
+        //     System.out.println("son");
+        // }else{
+        //     System.out.println("alpha");
+        // }
+
+        // 12-misol
+
+        // int c = '5';
+        // if (c>='0' && c<='9') {
+        //     System.out.println("nono");
+        // }else if(c>='a' && c<='z'){
+        //     System.out.println("lowerCase");
+        // }else if(c>='A' && c<='B'){
+        //     System.out.println("upperCase");
+        // }
+
+        
     }
 }
