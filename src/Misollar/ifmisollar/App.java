@@ -116,6 +116,33 @@ public class App {
         //     System.out.println("upperCase");
         // }
 
-        
+        // 13-misol
+
+        // int son = 4;
+        // if (son==1) {
+        //     System.out.println("Dushanba");
+        // } else if (son==2) {
+        //     System.out.println("Seshanba");
+        // }else if (son==3) {
+        //     System.out.println("Chorshanba");
+        // }else if (son==4) {
+        //     System.out.println("Payshanba");
+        // }else if (son==5) {
+        //     System.out.println("Juma");
+        // }else if (son==6) {
+        //     System.out.println("Shanba");
+        // }else if (son==7) {
+        //     System.out.println("Yakshanba");
+        // }
+
+
+        // 14-misol
+
+        int a=30 , b= 15 , c= 130;
+        if (a+b+c==180) {
+            System.out.println("true");
+        } else{
+            System.out.println("false");
+        }
     }
 }
